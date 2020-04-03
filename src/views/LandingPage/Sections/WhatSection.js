@@ -11,10 +11,10 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-      <div className={classes.section}>
+      <div id="what-section" className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>What does SHKL do?</h2>
+            <h2 className={classes.title}>What is SHKL?</h2>
           </GridItem>
         </GridContainer>
         <div>

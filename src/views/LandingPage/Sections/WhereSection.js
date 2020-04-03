@@ -11,10 +11,10 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-      <div className={classes.section}>
+      <div id="where-section" className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Where is SHKL used?</h2>
+            <h2 className={classes.title}>Where is SHKL?</h2>
           </GridItem>
         </GridContainer>
         <div>
@@ -40,7 +40,7 @@ export default function ProductSection() {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                   title="Unregulated Industries"
-                  description="Your organization has dealings in a marketplace that is not well enough understood to define, govern, and insure. (e.g. Cryptocurrency Exchange/Brokerage, REE, UCP)"
+                  description="Your organization has dealings in a marketplace that is not well enough understood to define, govern, and insure. (e.g. Cryptocurrency Organization, REE, UCP)"
                   icon={BorderStyle}
                   iconColor="warning"
                   vertical
